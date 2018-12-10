@@ -1,0 +1,171 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    float: none;
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid #cfcdd1;
+}
+
+.basket {
+    float: left;
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid #cfcdd1;
+}
+
+.text_basket {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 25px 0 0 50px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+.info1 {
+    float: left;
+    width: 1150px;
+    height: 30px;
+    max-height: 30px;
+    margin: 28px 50px 0 0;
+}
+
+.goods_selec {
+    float: left;
+    width: auto;
+    height: 30px;
+}
+
+#ins_goods {
+    float: left;
+    width: auto;
+    height: 30px;
+}
+
+.sum_rows {
+    float: left;
+    width: auto;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    margin: 0 0 0 20px;
+}
+
+.goods {
+    float: left;
+    width: 600px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    margin: 0 0 0 50px;
+}
+
+#total_price {
+    float: right;
+    width: 200px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    margin: 0 80px 0 0;
+}
+
+.catalog {
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+
+.line {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.text_catalog {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 25px 0 0 50px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+#all_cat, #all_cat_selected {
+    float: left;
+    width: 100%;
+    height: 460px;
+}
+
+.block_out, .block_out1 {
+    float: left;
+    width: 300px;
+    height: 390px;
+    margin: 70px 0 0 150px;
+}
+
+.tovar {
+    float: left;
+    width: 250px;
+    height: 350px;
+    background-color: #FFEBCD;
+    border-radius: 9px;
+    /*margin: 70px 0 0 150px;*/
+}
+
+.tovar:hover {
+    transition: 0.4s ease-in-out;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    margin: -10px 0 0 -10px;
+}
+
+.img_tv {
+    float: left;
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.name_tv {
+    float: left;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    color: #2b2847;
+}
+
+.price_tv {
+    float: left;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    color: #d4a121;
+}
+
+.buy {
+    float: left;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #009200;
+    cursor: pointer;
+}
